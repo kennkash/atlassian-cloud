@@ -1,0 +1,187 @@
+{
+    "projectKey": "AE",
+    "projectName": "Automation Engineering",
+    "issueTypeScreenScheme": "AE: Automation Engineering Ticket",
+    "issueTypeScreenDetails": [
+        {
+            "issueType": "Story, Bug, Task, Sub-task",
+            "issueTypeUrls": "/images/icons/issuetypes/story.svg, /secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype, /secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype, /secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+            "screenSchemeName": "Sample 1 Task Screen Scheme",
+            "screens": [
+                {
+                    "screenName": "Sample 1 Task Screen",
+                    "operationName": "Create, Edit, View",
+                    "fields": [
+                        "Summary",
+                        "Issue Type",
+                        "Reporter",
+                        "Component/s",
+                        "Description",
+                        "Priority",
+                        "Labels",
+                        "Attachment",
+                        "Linked Issues",
+                        "Due Date",
+                        "Assignee",
+                        "Target start",
+                        "Target end"
+                    ]
+                }
+            ],
+            "shared": true,
+            "projects": "TASKMGMT, AUDTRL, CDQUAL, CLN, CVDSOP, DRBMANAGE, EPI, MITS, ONBOARD, SAMPLE1, COSTSMAS, SASSTACK, TPJTI, T1CP, AE, ITNET, ITIN, MOST, T1OF"
+        },
+        {
+            "issueType": "Epic",
+            "issueTypeUrls": "/images/icons/issuetypes/epic.svg",
+            "screenSchemeName": "AE: Epic Screen Scheme",
+            "screens": [
+                {
+                    "screenName": "Tier 2 Epic Screen",
+                    "operationName": "Create, Edit, View",
+                    "fields": [
+                        "Ticket Category",
+                        "Ticket Sub-Category",
+                        "Sub-category",
+                        "Summary",
+                        "Epic Name",
+                        "Issue Type",
+                        "Reporter",
+                        "Component/s",
+                        "Attachment",
+                        "Due Date",
+                        "Description",
+                        "Linked Issues",
+                        "Assignee",
+                        "Priority",
+                        "Labels",
+                        "Type of Ticket",
+                        "Type of SE Request",
+                        "Time of Escalation",
+                        "Time until Resolved",
+                        "Original Created Date",
+                        "EqpID"
+                    ]
+                }
+            ],
+            "shared": true,
+            "projects": "AE, ITNET, ITIN, MOST, T1OF"
+        },
+        {
+            "issueType": "Tier 1 change, Tier 2 change, Tier 3 change, Verification",
+            "issueTypeUrls": "/secure/viewavatar?size=xsmall&avatarId=10308&avatarType=issuetype, /secure/viewavatar?size=xsmall&avatarId=10322&avatarType=issuetype, /secure/viewavatar?size=xsmall&avatarId=10320&avatarType=issuetype, /secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+            "screenSchemeName": "Second Level CPM: Jira Service Management Screen Scheme",
+            "screens": [
+                {
+                    "screenName": "Second Level CPM: Jira Service Management Screen",
+                    "operationName": "Create, Edit, View",
+                    "fields": [
+                        "Customer Request Type",
+                        "Issue Type",
+                        "Change type",
+                        "System",
+                        "Summary",
+                        "Description",
+                        "Reporter",
+                        "Component/s",
+                        "Linked Issues",
+                        "Assignee",
+                        "Priority",
+                        "Request participants",
+                        "Approvers",
+                        "Team",
+                        "As-Is",
+                        "To-Be",
+                        "Verification 1",
+                        "Verification 3",
+                        "Verification 7",
+                        "Change Start Date/Time",
+                        "Change End Date/Time",
+                        "Epic Link",
+                        "Organizations",
+                        "Attachment",
+                        "Site",
+                        "Fix Version/s"
+                    ]
+                }
+            ],
+            "shared": true,
+            "projects": "ATL, CHIP, FST, MOS, MSS, MIS1, DATAVISUAL, DMR, PCA, TC, AE, ITNET, ITIN, MOST, T1OF, TTDV, TESTTECH, PEV, ECA, SM, OC, MIM, SREQA, SRELS, MIDS, IS"
+        },
+        {
+            "issueType": "Ticket",
+            "issueTypeUrls": "/secure/viewavatar?size=xsmall&avatarId=10321&avatarType=issuetype",
+            "screenSchemeName": "Tier 2 Ticket Screen Scheme",
+            "screens": [
+                {
+                    "screenName": "Tier 2 Ticket Screen",
+                    "operationName": "Create, View",
+                    "fields": [
+                        "Ticket Category",
+                        "Ticket Sub-Category",
+                        "Sub-category",
+                        "Summary",
+                        "Issue Type",
+                        "Reporter",
+                        "Component/s",
+                        "Attachment",
+                        "Due Date",
+                        "Description",
+                        "Linked Issues",
+                        "Priority",
+                        "Assignee",
+                        "Labels",
+                        "Type of Ticket",
+                        "Type of SE Request",
+                        "Time of Escalation",
+                        "Time until Resolved",
+                        "Original Created Date",
+                        "EqpID",
+                        "Additional Assignees",
+                        "Groups",
+                        "Story Points"
+                    ]
+                },
+                {
+                    "screenName": "Tier 2 Ticket Screen - EDIT",
+                    "operationName": "Edit",
+                    "fields": [
+                        "Ticket Category",
+                        "Sub-category",
+                        "Summary",
+                        "Issue Type",
+                        "Reporter",
+                        "Component/s",
+                        "Attachment",
+                        "Due Date",
+                        "Description",
+                        "Linked Issues",
+                        "Priority",
+                        "Assignee",
+                        "Labels",
+                        "PC Name",
+                        "Customer Location",
+                        "Customer Department",
+                        "Customer NT ID",
+                        "Customer GHR ID",
+                        "Customer MySingle ID",
+                        "Customer Shift",
+                        "Customer Title",
+                        "Type of Ticket",
+                        "Type of SE Request",
+                        "EqpID",
+                        "Fix Version/s",
+                        "Affects Version/s",
+                        "Additional Assignees",
+                        "Groups",
+                        "Story Points"
+                    ]
+                }
+            ],
+            "shared": true,
+            "projects": "SAMPLEST, MIS1, DATAVISUAL, DMR, AEO, DE, DL, DLT, EQMS, ECA, MSS, OC, SM, AE, ITNET, ITIN, MOST, T1OF, AES, ASO, ITSEC, SOC, VDIP, VOC, PCA, ATL, CHIP, FST, MIM, EDM, TC, DM, PEV, WVTSR, WS, IS, DS"
+        }
+    ],
+    "default_screen": "Sample 1 Task Screen Scheme",
+    "default_issuetype": "Story"
+}
